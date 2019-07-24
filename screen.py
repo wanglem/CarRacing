@@ -28,6 +28,7 @@ class Screen:
                 print padding, # print padding
                 print player.car.car_arr[car_line_index], # print that line of car
                 print "" # print new line
+            print "" # extra line between to players
 
     def start_screen(self, player_list):
         self.clear()
