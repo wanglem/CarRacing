@@ -6,8 +6,15 @@ class Player:
         self.pos = pos
         self.car = car
         self.roll = roll
+        self._finished = False
 
     def move(self):
         prob = random.random()
         if (self.roll >= prob):
             self.pos += 1
+
+    def finish(self):
+        self._finished = True
+
+    def finished(self):
+        return self._finished
