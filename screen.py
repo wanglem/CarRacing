@@ -40,11 +40,11 @@ class Screen:
         self.display(player_list, [])
         print "Start In...."
         print "3"
-        time.sleep(1)
+        time.sleep(1.5)
         print "2"
-        time.sleep(1)
+        time.sleep(1.5)
         print "1"
-        time.sleep(1)
+        time.sleep(1.5)
 
     def player_name_print_str(self, name):
         pad_len = self.max_name_len - len(name)
